@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Library Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Library Management System</h1>
+
+    <div class="controls">
+      <input id="search" type="text" placeholder="Search books..." />
+
+      <div class="add-form">
+        <input id="title" type="text" placeholder="Book Title" />
+        <input id="author" type="text" placeholder="Author" />
+        <button onclick="addBook()">Add Book</button>
+      </div>
+    </div>
+
+    <div id="bookList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
